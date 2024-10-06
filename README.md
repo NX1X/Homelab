@@ -10,7 +10,7 @@ This repository contains documentation and configuration files for my personal h
 
 The home lab consists of the following key components:
 
-1. **8 Physical Servers Cluster**: Running Proxmox for virtualization. Tool: **[Proxmox](https://www.proxmox.com/en/)**
+1. **On-premise**: 8 physical Dell/Lenovo servers (7 in [Proxmox](https://www.proxmox.com/en/) cluster + 1 dedicated firewall)
 2. **Firewall**: Ensuring network security and managing traffic. Tool: **[pfSense](https://www.pfsense.org/)**
 3. **Kubernetes Cluster**: For container orchestration and microservices deployment. Tool: **[Rancher](https://www.rancher.com/)**
 4. **XDR & SIEM**: For comprehensive security monitoring and threat detection. Tool: **[Wazuh](https://wazuh.com/)**
