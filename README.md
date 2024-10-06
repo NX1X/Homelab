@@ -8,14 +8,20 @@ This repository contains documentation and configuration files for my personal h
 
 ## Infrastructure
 
-The home lab consists of the following key components:
+# 🏠 Homelab Infrastructure
 
-1. **On-premise**: 8 physical Dell/Lenovo servers (7 in **[Proxmox](https://www.proxmox.com/en/)** cluster + 1 dedicated firewall)
-2. **Firewall**: Ensuring network security and managing traffic. Tool: **[pfSense](https://www.pfsense.org/)**
-3. **Kubernetes Cluster**: For container orchestration and microservices deployment. Tool: **[Rancher](https://www.rancher.com/)**
-4. **XDR & SIEM**: For comprehensive security monitoring and threat detection. Tool: **[Wazuh](https://wazuh.com/)**
-5. **Storage**: Providing network-attached storage capabilities. Tool: **[TrueNAS Scale](https://www.truenas.com/truenas-scale/)**
-6. **Network**: Purchased a Cisco switch for high-performance networking. Model: **[Cisco Catalyst 4948E-F](https://www.cisco.com/c/en/us/products/switches/catalyst-4948e-ethernet-switch/index.html)**
+| Category | Description | Tool |
+|----------|-------------|------|
+| **On-premise** | 8 physical Dell/Lenovo servers (second-hand) | [Proxmox](https://www.proxmox.com/en/) (7-node cluster) |
+| **Firewall** | Network security and traffic management | [pfSense](https://www.pfsense.org/) |
+| **Container Orchestration** | Kubernetes cluster for microservices | [Rancher](https://www.rancher.com/) |
+| **Security** | XDR & SIEM for monitoring and threat detection | [Wazuh](https://wazuh.com/) |
+| **Storage** | Network-attached storage | [TrueNAS Scale](https://www.truenas.com/truenas-scale/) |
+| **Networking** | High-performance switch (second-hand) | [Cisco Catalyst 4948E-F](https://www.cisco.com/c/en/us/products/switches/catalyst-4948e-ethernet-switch/index.html) |
+
+> **Notes**: 
+> - One physical server is dedicated as the firewall, while the other 7 form the Proxmox cluster.
+> - All servers and the Cisco switch were purchased second-hand, demonstrating cost-effective infrastructure building.
 
 ## Structure
 
