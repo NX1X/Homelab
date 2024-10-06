@@ -10,18 +10,20 @@ This repository contains documentation and configuration files for my personal h
 
 # 🏠 Homelab Infrastructure
 
-| Category | Description | Tool |
-|----------|-------------|------|
-| **On-premise** | 8 physical Dell/Lenovo servers (second-hand) | [Proxmox](https://www.proxmox.com/en/) (7-node cluster) |
-| **Firewall** | Network security and traffic management | [pfSense](https://www.pfsense.org/) |
-| **Container Orchestration** | Kubernetes cluster for microservices | [Rancher](https://www.rancher.com/) |
-| **Security** | XDR & SIEM for monitoring and threat detection | [Wazuh](https://wazuh.com/) |
-| **Storage** | Network-attached storage | [TrueNAS Scale](https://www.truenas.com/truenas-scale/) |
+| Category | Description | Tool (Open Source) |
+|----------|-------------|---------------------|
+| **On-premise** | 8 physical Dell/Lenovo servers (second-hand) | [Proxmox](https://www.proxmox.com/en/) (7-node cluster) ✓ |
+| **Firewall** | Network security and traffic management | [pfSense](https://www.pfsense.org/) ✓ |
+| **Container Orchestration** | Kubernetes cluster for microservices | [Rancher](https://www.rancher.com/) ✓ |
+| **Security** | XDR & SIEM for monitoring and threat detection | [Wazuh](https://wazuh.com/) ✓ |
+| **Storage** | Network-attached storage | [TrueNAS Scale](https://www.truenas.com/truenas-scale/) ✓ |
 | **Networking** | High-performance switch (second-hand) | [Cisco Catalyst 4948E-F](https://www.cisco.com/c/en/us/products/switches/catalyst-4948e-ethernet-switch/index.html) |
 
 > **Notes**: 
 > - One physical server is dedicated as the firewall, while the other 7 form the Proxmox cluster.
 > - All servers and the Cisco switch were purchased second-hand, demonstrating cost-effective infrastructure building.
+> - ✓ indicates open-source software
+
 
 ## Structure
 
