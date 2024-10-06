@@ -12,7 +12,7 @@ This repository contains documentation and configuration files for my personal h
 
 | Category | Description | Tool (Open Source) |
 |----------|-------------|---------------------|
-| **On-premise** | 8 physical Dell/Lenovo servers (second-hand) | [Proxmox](https://www.proxmox.com/en/) (7-node cluster) ✓ |
+| **On-premise Servers** | 8 physical Dell/Lenovo servers (second-hand) | [Proxmox](https://www.proxmox.com/en/) (7-node cluster) ✓ |
 | **Firewall** | Network security and traffic management | [pfSense](https://www.pfsense.org/) ✓ |
 | **Container Orchestration** | Kubernetes cluster for microservices | [Rancher](https://www.rancher.com/) ✓ |
 | **Security** | XDR & SIEM for monitoring and threat detection | [Wazuh](https://wazuh.com/) ✓ |
