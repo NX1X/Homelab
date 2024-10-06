@@ -10,7 +10,7 @@ This repository contains documentation and configuration files for my personal h
 
 # 🏠 Homelab Infrastructure
 
-| Category | Description | Tool (Open Source) |
+| Category | Description | Tool / Model (Open Source) |
 |----------|-------------|---------------------|
 | **On-premise Servers** | 8 physical Dell/Lenovo servers (second-hand) | [Proxmox](https://www.proxmox.com/en/) (7-node cluster) ✓ |
 | **Firewall** | Network security and traffic management | [pfSense](https://www.pfsense.org/) ✓ |
