@@ -15,7 +15,7 @@ The home lab consists of the following key components:
 3. 4. **Kubernetes Cluster**: For container orchestration and microservices deployment. Tool: Rancher
 4. **SIEM & XDR**: For comprehensive security monitoring and threat detection. Tool: Wazuh
 5. **TrueNAS**: Providing network-attached storage capabilities.
-6. **Cisco Managed Switch**: 4948EF model for high-performance networking. Model: ![Cisco Catalyst 4948E-F](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4948e-ethernet-switch/data_sheet_c78-598933.html)
+6. **Cisco Managed Switch**: 4948EF model for high-performance networking. Model: [Cisco Catalyst 4948E-F](https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-4948e-ethernet-switch/data_sheet_c78-598933.html)
 
 ## Structure
 
